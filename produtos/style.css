@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-color: #3b3b41 ;
+    --text-color: #343440;
+    --bg-color: #ebeaea;
+    --header-color: #6c6c75, #53535a, #404044;
+    --color-01: #53535a;
+    --main-text: "Afacad Flux", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+/*-------Cabeçalho-------*/
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+header{
+    background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
+    /*border-radius: 100px;*/
+    box-shadow: 10px 10px 5px #9a9aa156;
+    font-size: 25px;
+
+    width: 100%;
+    height: 99px;
+    margin-top: -17px;
+}
+
+header h1{
+    font-size: 25px;
+}
+
+span{
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 200;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-width: auto;
+}
+
+.Logo-Decor{
+    margin-left: 20px;
+    cursor: default;
+    margin-top: 17px;
+    .imagem{
+        width: 54px;
+        margin-left: 19px;
+        margin-top: 14px;
+    }
+    .titulo{
+        margin-top: -21px;
+        font-size: 17px;
+    }
+    .icone{
+    font-size: 30px;
+    }
+}
+.social-midia {
+    position: relative;
+    left: 51%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 51%;
+    bottom: 88px;
+}
+.bx{
+    border-radius: 30%;
+    box-shadow: 3px 3px 8px;
+}
+.social-midia > a{
+    position: relative;
+    color: #00000097;
+    margin: 9px;
+    width: 16px;
+    padding: 20px;
+    font-size: 33px;
+    display: flex;
+    right: 37px;
+}
+.social-midia > a:hover{
+    color: white;
+    transition: 1.5s;
+}
+
+nav{
+    justify-content: center;
+    margin-top: 18px;
+    left: 1px;
+    display: flex
+;
+    gap: 3px;
+}
+
+nav > a{
+    color: #161616c5;
+    border-radius: 10px;
+    background: #00000059;
+    box-shadow: 3px 3px  rgba(0, 0, 0, 0.082);
+}
+nav > a:hover{
+    color: white;
+    transition: 1.5s;
+}
+
+
+/*-------/Cabeçalho-------*/
+
+/*-------Home-------*/
+.home-content h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.home-content{
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+    margin-left: 5px;
+    border-image: linear-gradient(210deg, transparent 51%,var(--color-01))1;
+    font-size: 19px;
+}
+div p strong{
+    font-size: 26px;
+}
+
+.home-content p{
+    text-indent: 10px;
+    margin-left: 7px;
+    margin-bottom: 14px;
+    margin-top: 29px;
+}
+
+/*------ /Home------*/
+.portifolio{
+    margin-top: 50px;
+}
+.portifolio h2{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.portifolio p{
+    margin-left: 15px;
+}
+
+.portifolio-container{
+    height: auto;
+    padding: 16px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 3.8rem;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(138deg, transparent 15%,var(--color-01))1;
+    div{
+        height: 400px;
+    }
+}
+.portifolio-box{
+    position: relative;
+    /*border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem var(--main-color);*/
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.portifolio-box img{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.paragrafoProdutos{
+    position: relative;
+    top: -70px;
+    border-left: solid 3px;
+    border-bottom: solid 3px;
+    border-image: linear-gradient(189deg, transparent 51%,var(--color-01))1;
+    font-size: 19px;
+}
+
+footer{
+    background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
+    font-size: 15px;
+    border-radius: 100px;
+    margin-top: 10px;
+}

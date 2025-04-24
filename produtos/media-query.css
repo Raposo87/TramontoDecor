@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 830px){
+    html{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+    }
+    header{
+        height: 160px;
+    }
+    .Logo-Decor{
+        margin-left: 42px;
+        cursor: default;
+        margin-top: 17px;
+        .imagem{
+            width: 121px;
+            margin-left: 33px;
+            margin-bottom: -23px;
+            margin-top: 2px;
+        }
+        .titulo{
+            margin-top: 4px;
+            font-size: 44px;
+        }
+        .icone{
+        font-size: 30px;
+        }
+    }
+    .social-midia {
+        left: 65%;
+        margin-right: 74%;
+        margin-top: -49px;
+        display: flex;
+        gap: 12px;
+    }
+    .social-midia a{
+        font-size: 53px;
+    }
+    .slide-box img{
+        margin-bottom: 21%;
+    }
+    div p strong {
+        font-size: 50px;
+    }
+    .home-content p {
+        text-indent: 20px;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .portifolio h2 {
+        font-size: 50px;
+    }
+    .portifolio-layer h4 {
+        background-color: #b0b0b5a7;
+        border-radius: 5px;
+        font-size: 40px;
+    }
+    .portifolio-layer p {
+        color: #ffffff;
+        margin: 8px 3px 3px;
+        font-size: 35px;
+    }
+
+
+}
+
+@media (orientation: landscape) {
+    html{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+    }
+    header{
+        height: 115px;
+    }
+    .Logo-Decor{
+        margin-left: 42px;
+        cursor: default;
+        margin-top: 17px;
+        .imagem{
+            width: 79px;
+            margin-left: 33px;
+            margin-bottom: -25px;
+            margin-top: 5px;
+        }
+        .titulo{
+            margin-top: 13px;
+            font-size: 32px;
+            width: 53%;
+        }
+        .icone{
+        font-size: 30px;
+    }
+}
+.slide-box img {
+    margin-bottom:20%;
+
+}
+.social-midia {
+    left: 71%;
+    margin-right: 41%;
+    margin-top: -19px;
+    display: flex;
+    gap: 12px;
+    width: 200px;
+
+}
+.social-midia a{
+    font-size: 39px;
+}
+
+.portifolio-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.portifolio-container {
+    padding: 75px;
+}
+div p strong {
+    font-size: 42px;
+}
+.home-content p {
+    text-indent: 35px;
+    margin-left: 7px;
+    margin-bottom: 14px;
+    margin-top: 29px;
+    font-size: 30px;
+}
+.portifolio h2 {
+    margin-top: 30px;
+    font-size: 41px;
+    margin-left: 20px;
+}
+.portifolio{
+    margin-right: 50px;
+}
+.home-content {
+    border-image: linear-gradient(210deg, transparent 18%, var(--color-01)) 1;
+}
+.mapBox {
+    width: 400px;
+}
+
+
+}
+
+@media screen and (min-width: 840px) and  (max-width: 1400px){
+    .portifolio-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .slide-box img {
+        margin-bottom: 0%;
+    }
+    .nav-manual, .nav-auto {
+        margin-top: 41%;
+    }
+    .social-midia {
+        left: 78%;
+        margin-right: 78%;
+    }
+    nav{
+        margin-bottom: 76px;
+        text-align: center;
+        margin-top: -58px;
+        gap: 20px;
+    }
+    nav > a{
+        color: #161616c2;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.082);
+    }
+    nav > a:hover{
+        color: white;
+        transition: 1.5s;
+    }
+    .portifolio-container {
+        padding: 59px;
+    }
+    .portifolio p {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    div p strong {
+        font-size: 42px;
+    }
+    .home-content p {
+        text-indent: 35px;
+        margin-left: 7px;
+        margin-bottom: 14px;
+        margin-top: 29px;
+        font-size: 30px;
+    }
+    .portifolio h2 {
+        margin-top: 30px;
+        font-size: 41px;
+        margin-left: 20px;
+    }
+
+    .paragrafoProdutos{
+        top: 5px;
+        height: 20%;
+        border-left: solid 3px;
+        border-bottom: solid 3px;
+        border-image: linear-gradient(189deg, transparent 51%,var(--color-01))1;
+        font-size: 30px;
+    }
+  
+    
+    }
+

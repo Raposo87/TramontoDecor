@@ -1,0 +1,281 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-color: #F26363 ;
+    --text-color: black;
+    --bg-color: #ebeaea;
+    --color-01: #F26363;
+    --main-text: "Afacad Flux", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+/*-------Cabeçalho-------*/
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+header{
+    box-shadow: 10px 10px 5px #9a9aa156;
+    font-size: 25px;
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 99px;
+    margin-top: -17px;
+}
+
+header h1{
+    font-size: 25px;
+}
+
+span{
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 200;
+}
+
+body{
+    
+    /*background-color: var(--bg-color);*/
+    color: var(--text-color);
+    min-width: auto;
+}
+
+.Logo-Decor{
+    margin-left: 20px;
+    cursor: default;
+    margin-top: 17px;
+    .imagem{
+        width: 54px;
+        margin-left: 19px;
+        margin-top: 14px;
+    }
+    .titulo{
+        margin-top: -21px;
+        font-size: 17px;
+    }
+    .icone{
+    font-size: 30px;
+    }
+}
+.social-midia {
+    position: relative;
+    left: 51%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 51%;
+    bottom: 88px;
+}
+.bx{
+    border-radius: 30%;
+    box-shadow: 3px 3px 8px;
+}
+.social-midia > a{
+    position: relative;
+    color: #00000097;
+    margin: 9px;
+    width: 16px;
+    padding: 20px;
+    font-size: 33px;
+    display: flex;
+    right: 37px;
+}
+
+/*-------/Cabeçalho-------*/
+
+/*-------Home-------*/
+
+.home-content h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+strong, h2{
+    margin-left: 20px;
+    color: black;
+}
+.home-content{
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+    margin-left: 5px;
+    border-image: linear-gradient(210deg, transparent 51%,var(--color-01))1;
+    font-size: 19px;
+}
+div p strong{
+    font-size: 26px;
+}
+
+.home-content p{
+    text-indent: 10px;
+    margin-left: 7px;
+    margin-bottom: 14px;
+    margin-top: 29px;
+}
+
+/*------ /Home------*/
+.portifolio{
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #ffb24ecb, #f2775cc7, #ff2a66c0);
+}
+.portifolio h2{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.portifolio p{
+    margin-left: 15px;
+}
+
+.portifolio-container{
+    height: auto;
+    padding: 16px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 3.8rem;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(138deg, transparent 15%, #FFB34E)1;
+    div{
+        height: 400px;
+    }
+}
+.portifolio-box{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.portifolio-box img{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.portifolio-box img:hover{
+    transform: scale(1.1);
+}
+
+.portifolio-box .portifolio-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(49, 49, 49));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    transform: translateY(30rem);
+    transition: 0.8s ease;
+    visibility: hidden;
+}
+
+.portifolio-box:hover .portifolio-layer{
+    transform: translateY(0);
+}
+
+.portifolio-layer h4{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(38, 38, 38);
+}
+
+.portifolio-layer p{
+    color: #ffffff;
+    margin: 8px 3px 3px;
+}
+
+.portifolio-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.portifolio-layer a i{
+    font-size: 30px;
+    color: black;
+}
+/*Depoimentos*/
+.depoimento-box{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.depoimento .caixa{
+    margin-bottom: 5rem;
+}
+.depoimento-box h2{
+    padding: 1rem;
+}
+.depoimento-box img{
+    width: 7rem;
+    border-radius: 50%;
+    border: 3px solid #FFB34E;
+}
+.caixa{
+    display: grid;
+    grid-template-columns: repeat(3,1rf);
+    gap: 3rem;
+}
+.testemunha-item{
+    min-height: 400px;
+    max-width: 300px;
+    border: 3px solid #F26363;
+    margin: 0 2rem;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimento .avaliacao .bx{
+    color: rgb(255, 183, 0);
+    border-radius: none;
+    box-shadow: none;
+}
+/*Depoimentos*/
+.mapBox{
+    position: relative;
+    height: 400px;
+    background: #F26363;
+    padding: 5px;
+    top: 6px;
+    margin-bottom: 80px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.mapBox iframe{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    font-size: 15px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
